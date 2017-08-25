@@ -1,0 +1,252 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.topBar {
+  height: 5%;
+  background-color: #3465A4;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 20px 30px;
+  font-size: 24px;
+  box-shadow: inset -0.5px 0   0 #888A85, inset  0  -0.5px 0 #888A85, inset  0.5px   0 0 #888A85, inset  0 0.5px 0 #888A85;
+}
+
+.body {
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.formC {
+  width: 84%;
+}
+
+.formProgressC {
+  height: 100%;
+  width: 16%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.menuBar {
+  width: 5%;
+  height: 100%;
+  background-color: #EEEEEC;
+  box-shadow: inset -1px 0   0 #888A85, inset  0  -1px 0 #888A85, inset  1px   0 0 #888A85, inset  0 0px 0 #888A85;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 100%;
+}
+
+.menuItem {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 25px 0px 25px 20%;
+  font-size: 16px;
+}
+
+.selectedItem {
+  position: absolute;
+  top: 0px;
+  right: -5.3%;
+  background-color: #EDD400;
+  box-shadow: inset -1px 0   0 #888A85, inset  0  -1px 0 #888A85, inset  1px   0 0 #888A85, inset  0 1px 0 #888A85;
+  height: 100%;
+  width: 5.2%;
+}
+
+.fContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.f1Title {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 2% 0px 2% 8%;
+}
+
+.f1Row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.f1Row input {
+  margin-right: 10px;
+}
+
+.f1Label {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f1LabelCb {
+  width: 5%;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 8%;
+  right: 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.buttons div {
+  cursor: pointer;
+}
+
+.f2Container {
+  display: flex;
+  flex-direction: column;
+  padding: 3% 0px 0 6%;
+}
+
+.f2Title {
+  margin-bottom: 20px;
+}
+
+.f2Label {
+  width: 21%;
+}
+
+.f2Input {
+  width: 25%;
+}
+
+.f2Input input {
+  width: 100%;
+}
+
+.selectHeight {
+  height: max-content;
+  width: max-content;
+}
+
+.f3Label {
+  width: max-content;
+}
+
+.f3Row {
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome {
+  font-size: 22px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.wText {
+  width: 80%;
+}
+
+.wTitle {
+  font-size: 24;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.f5Row input:first-child{
+  margin-left: 20px;
+}
+
+.f5Row div:first-child {
+  margin: 10px 0px;
+}
+
+.f5Dates {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.f5DateRow {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.f5DatesI {
+  margin-left: 10px;
+}
+
+.dateInputs {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.dateInputs div {
+  margin: 0px 3px;
+}
+
+.f6Container {
+  padding: 3% 0px 0 6%; 
+}
+
+.f6Row {
+  margin-bottom: 15px;
+}
+
+.f6Row input {
+  margin-top: 10px;
+}
+
+.f6RowC {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.f6RowC input {
+  margin: 10px 10px;
+}
+
+.reviewTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.reviewTitle2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dataC {
+  display: flex;
+  flex-direction: column;
+}
+
+.dataC div {
+  margin-bottom: 10px;
+}
